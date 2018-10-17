@@ -15,7 +15,7 @@ import networkx as nx
 from IPython.display import FileLink, FileLinks
 
 # Own Libraries
-import rstoolbox  # Learn about this library at: http://lpdi-epfl.github.io/RosettaSilentToolbox
+import rstoolbox  # Learn about this library at: http://lpdi-epfl.github.io/rstoolbox
 
 import readme
 
@@ -23,16 +23,6 @@ import readme
 plt.rcParams['svg.fonttype'] = 'none'
 rstoolbox.utils.format_Ipython()
 ```
-
-
-
-
-<style>
-table.dataframe {
-    font-family: monospace;
-}
-</style>
-
 
 
 # Target-biased folding and design of protein binders
@@ -72,22 +62,6 @@ df.groupby(["binder_state"]).mean()
 ```
 
 
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
